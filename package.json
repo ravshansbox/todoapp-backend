@@ -1,0 +1,17 @@
+{
+  "name": "todoapp-backend",
+  "private": true,
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "start": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ravshansbox/mini-app": "^2.11.4"
+  }
+}
